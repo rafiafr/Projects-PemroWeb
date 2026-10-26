@@ -1,0 +1,69 @@
+p {
+    color: rgb(81, 28, 255);
+    font-size: large;
+    border-radius: 10px;
+    background-color: bisque;
+    width: 500pt;
+    padding: 10px;
+    cursor:grab;
+    line-height: 150%;
+
+    text-indent: 20px;
+    text-decoration: underline;
+    text-align: justify;
+    text-transform: capitalize;
+    word-spacing: 15px;
+    /* background-color: bisque; */
+}
+
+body{
+    padding: 100pt;
+}
+
+p:hover {
+    background-color: chartreuse;
+}
+
+p::first-letter { 
+    /* font-family: monotype corsiva;
+    font-size: 25pt; */
+    font: 25pt monotype corsiva;
+    
+}
+
+p b {
+    background-color: brown;
+    padding: 1px;
+    color: aliceblue;
+}
+
+* {
+    background-color: azure;
+}
+
+#cihuy {
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    font-size: large;
+    font-weight: 200;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.qihuy {
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+    color: aliceblue;
+    
+}
+
+.anjay {
+    font-size: larger;
+    font-style: oblique;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
