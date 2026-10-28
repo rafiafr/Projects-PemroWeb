@@ -9,6 +9,22 @@ body {
     margin: 0px;
 }
 
+.font-domine {
+    font-family: 'Domine';
+}
+.font-poppins {
+    font-family: 'Poppins';
+}
+.font-bebas {
+    font-family: 'Bebas Neue';
+}
+.font-crete {
+    font-family: 'Crete Round';
+}
+
+
+/* -------------------------------------------------- */
+
 .navbar{
     padding-left: 10%;
     padding-right: 10%;
@@ -71,6 +87,7 @@ div h2 i{
 .container {
     padding-left: 12%;
     padding-right: 12%;
+    color: #2d2c4f;
 }
 
 .header {
@@ -96,7 +113,6 @@ div h2 i{
     color: #8345FF;
 }
 
-
 .right-stuff {
     width: 40%;
 
@@ -111,7 +127,7 @@ div h2 i{
 
     font-size: 0.8rem;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 
     padding-top: 20px;
     padding-bottom: 20px;
@@ -142,7 +158,6 @@ div h2 i{
     color: #3a06f6;
 }
 
-
 /* --------------------------------------------- */
 .borderss {
     background-color: #b1ff45;
@@ -151,6 +166,8 @@ div h2 i{
     padding-bottom: 20px;
     justify-content: space-between;
     display: flex;
+    border-top: 1px solid  #271c4f;
+    border-bottom: 1px solid  #271c4f;
 
 }
 
@@ -173,6 +190,7 @@ div h2 i{
     background-color: #bec6ee;
     padding: 25px;
     color:#271c4f;
+    border-top: 4px solid  #271c4f;
 }
 
 /* --------------------------------------------- */
@@ -207,8 +225,83 @@ div h2 i{
     width: 12%;
 }
 
+.hr-thin {
+    border: none;
+    border-top: 1px solid #000;
+    opacity: 0.2; /* Softens the line to make it look visually thinner */
+}
+
 /* --------------------------------------------- */
 
 .palette {
-    height: 800pt;
+    padding-top: 30pt;
+}
+
+.palette-boxes {
+    display: flex;
+}
+
+.box-1 {
+    width: 33.3%;
+    background-color: #BEC6EE;
+    padding: 20pt;
+    border: 0.5px solid black;
+}
+.typo-box1{
+    font-size: 50pt;
+    letter-spacing: 18px;
+    font-family: "Bodoni Moda", serif;
+    padding-top: 25pt;
+}
+.box-2 {
+    width: 33.3%;
+
+    background-color: #beeeda;
+    padding: 20pt;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+}
+.typo-box2{
+    font-size: 50pt;
+
+    font-family: "Crete Round", serif;
+    padding-top: 25pt;
+    font-style: italic;
+}
+.box-3 {
+    width: 33.3%;
+    background-image: url(images/grid-white.jpg);
+    padding: 20pt;
+    border: 0.5px solid black;
+}
+
+.typo-box3{
+    font-size: 50pt;
+
+    font-family: "Bebas Neue", sans-serif;
+    padding-top: 25pt;
+    font-weight: 800;
+}
+
+/* --------------------------------------------- */
+
+.lab-mini {
+    padding-top: 50pt;
+    height: 300pt;
+}
+
+.lab-text {
+    font-size: 40pt;
+    padding: 50pt 0 50pt 0;
+    font-style: italic;
+}
+
+.footer {
+    height: 80pt;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
 }
