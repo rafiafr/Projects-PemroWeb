@@ -1,5 +1,6 @@
 *{
     font-family: poppins;
+    margin: 0;
 }
 
 body {
@@ -11,11 +12,18 @@ body {
 .navbar{
     padding-left: 10%;
     padding-right: 10%;
+    width: 80%;
     display: flex;
     background-color: #F7F5EC;
     justify-content: center;
     align-items: center;
     height: 110px;
+
+    position: fixed;
+}
+
+.hero{
+    padding-top: 110px;
 }
 
 .logo {
@@ -66,8 +74,10 @@ div h2 i{
 }
 
 .header {
-    padding-top: 50px;
     display: flex;
+    padding-top: 40px;
+    height: auto;
+    padding-bottom: 40px;
 }
 /* --------------------------------------------- */
 .left-stuff {
@@ -172,7 +182,7 @@ div h2 i{
 }
 
 .quotes {
-    height: 300pt;
+    height: auto;
     background-color: #271c4f;
     display: flex;
     color: #fffefe;
