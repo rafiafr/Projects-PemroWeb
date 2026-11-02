@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #271c4f;
+    line-height: 1.7;
+    padding: 20px;
+}
+
+.kelass {
+    background-color: #b1ff45;
+    padding: 20px;
+    width: 550px;
+    height: 200px;
+    overflow: auto;
+    margin: 25pt;
+    border-right: 7px solid #100e172b;
+    border-left: 7px solid #6338ff;
+    border-radius: 00px 50px 50px 00px;
+}
+
+img {
+    float: left;
+    margin: 20px;
+
+}
+
+.satu {
+    background-color: #b1ff45;
+    width: 550px;
+    height: 50px;
+    overflow: auto;
+    padding: 5px;
+    border-radius: 5pt;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+
+}
+
+.kotak{
+    width: 20%;
+    height: 100px;
+    background-color: #a4acff;
+    text-align: center;
+    float: left;
+    align-content: center;
+}
+
+.container {
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
