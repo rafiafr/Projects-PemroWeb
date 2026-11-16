@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <title>Custom Case | R4V5'Case</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR-->
+    <div class="between"></div>
+    <div class="navbar">
+    <div class="isi">
+        <a class="logo" href="index.html">R4V5<span>'Case</span></a>
+        <div class="menu">
+        <a href="index.html">Beranda</a>
+        <a href="index.html#katalog">Katalog</a>
+        <a href="custom.html">Custom Case</a>
+        </div>
+        <div class="ikon">
+        <input type="text" placeholder="Cari casing HP...">
+        <a href="keranjang.html">🛒</a>
+        <a href="profil.html">👤</a>
+        </div>
+    </div>
+    </div>
+
+    <!-- FORM PEMESANAN CUSTOM -->
+    <div class="bagian">
+    <div class="isi dua">
+
+        <!-- Form -->
+        <div class="kiri">
+        <h1>Pesan Custom Case</h1>
+        <p class="ket">Isi form berikut, lalu cek estimasi harga sebelum memesan.</p>
+
+        <form class="kotak" action="keranjang.html">
+            <label>Model HP</label>
+            <select>
+                <option>iPhone 15</option>
+                <option>Samsung Galaxy S24</option>
+                <option>Xiaomi Redmi Note 13</option>
+                <option>OPPO Reno 11</option>
+            </select>
+
+            <label>Jenis case</label>
+            <div class="pilihan">
+                <label><input type="radio" name="jenis">Hardcase</label>
+                <label><input type="radio" name="jenis">Softcase</label>
+                <label><input type="radio" name="jenis">Lentikular Hard</label>
+                <label><input type="radio" name="jenis">Lentikular Soft</label>
+            </div>
+
+            <label>Download Template Desain</label>
+            <button class="btn btn-garis" type="button">Download</button>
+            <button class="btn" type="button"> <a href="https://www.photopea.com" target="_blank">Buka Photopea.com</a></button>
+
+            <label>Unggah gambar</label>
+            <input type="file" accept="image/*" multiple>
+            <p class="kecil-teks">Hardcase / Softcase: 1 gambar. Lentikular: 2-6 gambar.</p>
+
+            <label>Jumlah</label>
+            <input type="number" value="1" min="1">
+
+            <label>Catatan desain</label>
+            <textarea rows="3" placeholder="Contoh: teks di bagian bawah"></textarea>
+
+            <!-- Estimasi harga -->
+            <div class="estimasi">
+                <b>Estimasi harga (per pcs)</b>
+                <p><span>Hardcase</span><span>Rp 75.000</span></p>
+                <p><span>Softcase</span><span>Rp 65.000</span></p>
+                <p><span>Lentikular Hard</span><span>Rp 110.000</span></p>
+                <p><span>Lentikular Soft</span><span>Rp 100.000</span></p>
+                <span class="kecil-teks">Belum termasuk ongkir. Harga final dikonfirmasi setelah desain dicek.</span>
+            </div>
+
+            <div class="tombol">
+                <button class="btn btn-garis" type="submit">Tambah ke keranjang</button>
+                <button class="btn" type="submit" formaction="pengiriman.html">Pesan sekarang</button>
+            </div>
+        </form>
+        </div>
+
+        <!-- Cara pemesanan -->
+        <div class="kanan kotak abu">
+        <h3>Cara pemesanan</h3>
+        <p>1. Pilih model HP dan jenis case.</p>
+        <p>2. Unggah gambar desainmu.</p>
+        <p>3. Cek estimasi harga.</p>
+        <p>4. Tambah ke keranjang atau langsung isi data pengiriman.</p>
+        <p class="kecil-teks">Pengerjaan sekitar 3-5 hari kerja.</p>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+    © 2026 R4V5'Case - Hardcase, Softcase &amp; Lentikular Case
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <title>Pengiriman | R4V5'Case</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--NAVBAR-->
+  <div class="between"></div>
+  <div class="navbar">
+    <div class="isi">
+      <a class="logo" href="index.html">R4V5<span>'Case</span></a>
+      <div class="menu">
+        <a href="index.html">Beranda</a>
+        <a href="index.html#katalog">Katalog</a>
+        <a href="custom.html">Custom Case</a>
+      </div>
+      <div class="ikon">
+        <input type="text" placeholder="Cari casing HP...">
+        <a href="keranjang.html">🛒</a>
+        <a href="profil.html">👤</a>
+      </div>
+    </div>
+  </div>
+
+  <!--FORM PENGIRIMAN (FORM 2)-->
+  <div class="bagian">
+    <div class="isi">
+      <h1>Data Pengiriman</h1>
+      <form class="dua" action="index.html">
+
+        <!-- Data penerima -->
+        <div class="kiri kotak">
+          <div class="baris">
+            <div>
+              <label>Nama penerima</label>
+              <input type="text">
+            </div>
+            <div>
+              <label>No. HP</label>
+              <input type="tel">
+            </div>
+          </div>
+
+          <label>Alamat lengkap</label>
+          <textarea rows="3"></textarea>
+
+          <div class="baris">
+            <div>
+              <label>Kota / Kabupaten</label>
+              <input type="text">
+            </div>
+            <div>
+              <label>Kode pos</label>
+              <input type="text">
+            </div>
+          </div>
+
+          <div class="baris">
+            <div>
+              <label>Kurir</label>
+              <select>
+                <option>JNE Reguler</option>
+                <option>J&amp;T Express</option>
+                <option>SiCepat</option>
+              </select>
+            </div>
+            <div>
+              <label>Pembayaran</label>
+              <select>
+                <option>Transfer bank</option>
+                <option>E-wallet</option>
+                <option>COD</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ringkasan pesanan -->
+        <div class="kanan kotak ringkasan">
+          <h3>Pesanan kamu</h3>
+          <p><span>Hardcase Matte Navy</span><span>Rp 30.000</span></p>
+          <p><span>Custom Lentikular Soft</span><span>Rp 50.000</span></p>
+          <p><span>Ongkir</span><span>Rp 15.000</span></p>
+          <p class="total"><span>Total</span><span>Rp 95.000</span></p>
+          <button class="btn" type="submit">Buat pesanan</button>
+          <a class="btn btn-garis" href="keranjang.html">Kembali ke keranjang</a>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <!--FOOTER -->
+  <div class="footer" style="position:absolute; bottom: 0; width: 100%;">
+    © 2026 R4V5'Case - Hardcase, Softcase &amp; Lentikular Case
+  </div>
+
+</body>
+</html>
